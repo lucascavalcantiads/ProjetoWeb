@@ -1,0 +1,96 @@
+<!DOCTYPE html><!-- Definindo o tipo de arquivo para HTML -->
+<html lang="pt-br">
+  <head><!-- Cabecalho do HTML -->
+    <meta charset="UTF-8"/>
+    <title>GOOGLE CLOUD</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Linha de código para chamar o arquivo CSS-->
+  </head>
+  <script>// language="javascript"src="javascript/funcoes.js" Essa linha deveria chamar o arquivo Java Script, mas não está funcionando
+  function mudaFoto(foto){
+    document.getElementById("icone").src = foto;
+  }
+  </script>
+  <body>
+    <div id="interface"><!-- Criando uma divisão -->
+      <header id="cabecalho"><!-- Criando um cabeçalho -->
+        <hgroup><!-- Criação de grupo entre hierarquias -->
+          <h1>Google Cloud</h1>
+          <h2>Google revolution is coming</h2>
+        </hgroup>
+        <img id="icone" src="IMAGENS/sunglasses.png"/>
+        <br/>
+        <nav id = "menu">
+          <h1>Main Menu</h1>
+          <ul>
+            <li onmouseover="mudaFoto('IMAGENS/home.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="index.html">home</a></li>  
+            <li onmouseover="mudaFoto('IMAGENS/specifications.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="specs.html">specifications</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/photo.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="fotos.html">photos</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/multimedia.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="multimidia.html">multimedia</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/contact.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="fale-conosco.html">contact us</a></li>
+          </ul>
+        </nav>
+      </header> 
+      <section id="corpo"><!--INICIO DE SECÇÃO PRINCIPAL-->
+        <article id="noticia-principal"><!--INICIO DO ARTIGO-->
+          <header id="cabecalho-artigo"><!--INICIO CABECALHO-ARTIGO-->          
+            <hgroup>
+              <h3>Technology > Innovationos</h3>
+              <h1>Learn all about Google Cloud</h1>
+              <h2>by Lucas Cavalcanti de Paula</h2>
+              <h3 class="direita">Updated: 23/10/2019</h3>
+            </hgroup>
+          </header><!--FIM CABECALHO-ARTIGO-->
+          <h2>What is</h2>
+          <figure class="foto-legenda">
+            <img src="IMAGENS/IMAGEM03.jpg"/>
+            <figcaption>
+              <h3>Google Cloud</h3>
+              <p>A new way to see the world in Cloud</p>   
+            </figcaption>
+          </figure>
+
+          <h2>Release date of</h2>
+          <p>Google Cloud Platform is a provider of computing resources for deploying and operating applications on the web. Its specialty is providing a place for individuals and enterprises to build and run software, and it uses the web to connect to the users of that software. Think of tens of thousands of websites operating on a network of "hyperscale" (very big, but also very divisible) data centers, and you'll get the basic idea.</p>
+
+          <h2>The power of Google Cloud</h2>
+          <p>When you run a website, an application, or a service on Google Cloud Platform (GCP), Google keeps track of all of the resources it uses -- specifically, how much processing power, data storage, database queries, and network connectivity it consumes. Rather than lease a server or a DNS address by the month (which is what you would do with an ordinary website provider), you pay for each of these resources on a per-second basis (competitors charge per-minute), with discounts that apply when your services are used heavily by your customers on the web. <a href="https://cloud.google.com/"target="_blank">SmartArt</a> are changed to match the new theme.</p><!--A função <wbr/> quebra a linha na silaba -->
+
+          <h2>The Innovations of Google Cloud</h2>
+          <p>So what do you actually do on a cloud platform, and why would you want to do it on Google's? You use a cloud platform when you want the services you present to your users, your customers, or your fellow employees to be an application as opposed to a website. Maybe you want to help homebuilders estimate the size and structure of the cabinets they need to rebuild a kitche n. Maybe you're analyzing the performance statistics of athletes trying out for a college sports club, and you need sophisticated analytics to tell the head coaches whose performance could improve. </p>
+
+          <table id="tabela"><!--INICIO DA TABELA-->
+            <caption id="legenda_tabela">Tabela Técnica do Google Cloud <span>OUT/2019</span></caption>
+            <tr><td class="ce">Picture</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
+            <tr><td rowspan="2" class="ce">C amera</td><td class="cd">5MP para fotos</td></tr>
+            <tr><td class="cd">720p para vídeos </td></tr>
+            <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td></tr>
+            <tr><td class="cd">Bluetooth</td></tr>
+            <tr><td class="ce">Memória Interna</td> <td class="cd">12GB</td></tr>
+          </table><!--FIM DA TABELA-->
+
+          <h2>How does GCP work?</h2>
+          <p>Cloud computing has grown exponentially in recent years, being adopted by companies from various segments around the world. Their solutions have made IT services more efficient, automated and secure.</p>
+
+          [AQUI ENTRA UM VIDEO]
+
+        </article><!--FIM DO ARTIGO-->
+      </section><!--FIM DE SECÇÃO PRINCIPAL-->
+    <aside id="lateral"><!--INICIO DE CONTEUDO LATERAL-->
+      <h1>Other news</h1>
+      <h2>Latest Videos</h2>
+
+      [AQUI ENTRA UM VIDEO]
+
+      <h2>What are the benefits of Google Cloud Platform?</h2>
+      <p>Google's cloud computing platform enables companies to increase their productivity and become more competitive. This is because of the agility of the services offered, which help to organize the operational routine and thus allow the team to produce more in less time.</p>
+      <p>In addition, IT staff can focus on critical processes as the platform optimizes the entire cloud infrastructure, manages networks and performs secure and intelligent backups.</p>
+    </aside><!--FIM DE CONTEUDO LATERAL-->
+    <footer id="rodape"><!--INICIO DO RODAPÉ-->
+      <p>Copyright &copy; 2019 - by Lucas de Paula
+      <br><a href="https://www.linkedin.com/in/lucascavalcantiads"target="_blank">LinkedIn</a> 
+      &nbsp;|&nbsp;
+      <a href="https://github.com/lucascavalcantiads"target="_blank">GitHub</a></p>
+    </footer><!--INICIO DO RODAPÉ-->
+    </div>
+  </body>
+</html>

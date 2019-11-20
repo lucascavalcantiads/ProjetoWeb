@@ -1,0 +1,91 @@
+ 
+**********COMANDOS HTML5 - INICIO**********
+.Se quiser baixar fontes, acesse google.com/fonts
+.<h1></h1>     >>> Criação de hierarquias;
+.<br/><br/>    >>> Cada um desses br da uma quebra de linha;
+.<hgroup></hgroup> >>>Cria grupos de hierarquias;
+.<img src="IMAGENS/Glass - First.png"/>  >>> Para colocar uma imagem na página;
+.<meta charset="UTF-8"/> >>>Permitindo acentuações;
+.<html lang="pt-br">   >>>Definindo idioma;
+.<!DOCTYPE html>   >>>Definindo o tipo de documento;
+.&nbsp;    >>>No Break Spaces (Espaços sem quebras)Dá espaços laterias;
+.&shy    >>>Soft Hyphen= Ele quebra as palavras com hífen entre as silabas;
+.&lt; >>>Simbolo de menor que;
+.&gt; >>>Simbolo de maior que;
+.&le ; >>>Simbolo de menor ou igual a;
+.&ge; >>>Simbolo de maior ou igual a;
+.&pound; >>>Simbolo da moeda libra;
+.&yen; >>>Simbolo da moeda yen;
+.&euro; >>>Simbolo da moeda euro;
+.<b> TEXTO </b>    >>>Deixa a palavra em negrito;
+.<i> TEXTO </i>    >>>Deixa a palavra em italico;
+.<em></em>  >>>Siginifica Enfase, O navegador vai entender que você quer enfatesar
+ o que esta dentro do comando, e visualmente deixa a palavra inclinada;
+<del> TEXTO </del>    >>>Informa para o navegador que o texto que está entre o comando foi
+ deletado, visualmente o texto fica riscado;
+<code>CÓDIGO DE PROGRAÇÃO</code>    >>>;Para escrever em textos programações;
+<pre>Texto</pre>    >>>Essa tag ira fazer com que todos os enteres e espaços
+sejam considerados;
+<figure>img scr="link da imagem"<figure/>    >>>As imagens dentro dessa tag serão
+consideradas imganes com caracteristicas semanticas;
+<nav></nav>    >>>Tudo o que estiver dentro desse comando é um menu de navegação; 
+<tr></tr>Table Rows  >>>Linha de tabelas; 
+<td></td>Table Data  >>>Dados de células de tabelas;
+<td rowspan="2">   >>> Faz com que a célula ocupe duas linhas
+<td colspan="2">   >>> Faz com que a célula ocupe duas colunas
+<article></article> >>>Isso informa um artigo; 
+<></>    >>>; 
+<></>    >>>; 
+<></>    >>>; 
+<></>    >>>; 
+<></>    >>>; 
+<></>    >>>; 
+**********COMANDOS HTML5 - FIM************
+
+
+**********COMANDOS CSS3 - INICIO**********
+.<span style="text-decoration: underline;"> TEXTO </span>  >>>Deixa o que estiver entre o
+ comando sublinhado;
+.<span style="text-decoration: through;"> TEXTO </span>  >>>Deixa o que estiver entre o
+ comando riscado;
+.<span style="font-weight: bold;"> TEXTO </span>  >>>Deixa o que estiver entre o
+ comando  em negrito;
+.<h2 style="text-align: center;"> TEXTO </h2>  >>>Deixa o que estiver entre o
+ comando alinhado ao centro;
+.<h2 style="text-align: left;"> TEXTO </h2>  >>>Deixa o que estiver entre o
+ comando alinhado a esquerda;
+.<h2 style="text-align: right;"> TEXTO </h2>  >>>Deixa o que estiver entre o
+ comando alinhado a direita;
+.<p style="text-align: justify;"> TEXTO </p>  >>>Deixa o que estiver entre o
+ comando alinhado justificado;
+.<p style="text-indent: 50px;"> TEXTO </p>   >>>Da um espaço de paragrafo na linha;
+ 
+.<style>
+    p {/*Formatação Global do CSS3*/
+        style="text-align: justify; 
+        text-indent: 50px"
+      }
+
+    body{
+        background-color: tomato; //Para mudar cor de fundo da tela
+        color: red; //Para mudar cor das letras
+        }
+    </style>
+Acima está a formatação global de CSS3, que é tudo o que esta dentro do style,
+O Style fica dentro do "head"
+.Ao inves de escrever o nome da cor pode colocar o seguinte: rgb(173, 91, 91);
+.
+.text-transform: uppercase;Faz as letras ficarem maiusculas
+.list-style: none;Tira o estilo botão (bolinhas de marcação) do botão
+.display: block;  >>> Faz com que seja mostrado como bloco
+.float: left; >>> Faz com que flutue do lado esquerdo
+
+
+
+
+**********COMANDOS CSS3 - FIM*************
+
+
+**********COMANDOS JAVA SCRIPT - INICIO**********
+
+**********COMANDOS JAVA SCRIPT - FIM*************

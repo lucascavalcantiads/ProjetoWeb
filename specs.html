@@ -1,0 +1,54 @@
+<!DOCTYPE html><!-- Definindo o tipo de arquivo para HTML -->
+<html lang="pt-br">
+  <head><!-- Cabecalho do HTML -->
+    <meta charset="UTF-8"/>
+    <title>GOOGLE CLOUD | Specifications</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Linha de código para chamar o arquivo CSS-->
+  </head>
+  <script>// language="javascript"src="javascript/funcoes.js" Essa linha deveria chamar o arquivo Java Script, mas não está funcionando
+  function mudaFoto(foto){
+    document.getElementById("icone").src = foto;
+  }
+  </script>
+  <body>
+    <div id="interface"><!-- Criando uma divisão -->
+      <header id="cabecalho"><!-- Criando um cabeçalho -->
+        <hgroup><!-- Criação de grupo entre hierarquias -->
+          <h1>Google Cloud - Especificações</h1>
+          <h2>Google revolution is coming</h2>
+          <img src="IMAGENS/IMAGEM05.jpg" alt="">
+        </hgroup>
+        <img id="icone" src="IMAGENS/sunglasses.png"/>
+        <br/>
+        <nav id = "menu">
+          <h1>Main Menu</h1>
+          <ul>
+            <li onmouseover="mudaFoto('IMAGENS/home.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="index.html">home</a></li>  
+            <li onmouseover="mudaFoto('IMAGENS/specifications.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="specs.html">specifications</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/photo.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="fotos.html">photos</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/multimedia.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="multimidia.html">multimedia</a></li>
+            <li onmouseover="mudaFoto('IMAGENS/contact.png')" onmouseout="mudaFoto('IMAGENS/sunglasses.png')"><a href="fale-conosco.html">contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <p id="pSpec">Clique em qualquer area destacada da imagem para ter mais informações sobre o produto</p>
+
+    <img id="imgSpec01" src="IMAGENS/IMAGEM04.jpg" alt="">
+
+  <hgroup>
+      <h3>Cloud > Specifications</h3>
+      <h1>Learn all about Google Cloud</h1>
+      <h2>by Lucas Cavalcanti de Paula</h2>
+      <h3 class="direita">Updated: 23/10/2019</h3>
+    </hgroup>
+
+<footer id="rodape"><!--INICIO DO RODAPÉ-->
+  <p>Copyright &copy; 2019 - by Lucas de Paula
+  <br><a href="https://www.linkedin.com/in/lucascavalcantiads"target="_blank">LinkedIn</a> 
+  &nbsp;|&nbsp;
+  <a href="https://github.com/lucascavalcantiads"target="_blank">GitHub</a></p>
+</footer><!--INICIO DO RODAPÉ-->
+</div>
+</body>
+</html>

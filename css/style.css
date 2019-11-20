@@ -1,0 +1,271 @@
+@charset "UTF-8"; /*Comando para colocarmos acentuação*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Titillium+Web&display=swap');/*Fonte externa, utilizando o site do google fonts*/
+
+body{/* Configuração da TAG do corpo, localizada em html*/
+    background-color: black ;
+    color: rgb(247, 36, 71);
+    font-family: Arial, sans-serif;
+    
+}
+
+div#interface{
+    width: 1100px;
+    position: relative;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    box-shadow:0px 0px 15px grey;
+    padding: 10px ;
+}
+
+p{/* Configuração da TAG do paragrafo, localizada em html*/
+    text-align: justify; 
+    text-indent: 50px;
+    color: silver;
+}
+
+a{
+    color: #606060;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone{
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    left: 850px;
+    top: 9px;
+    border: none;
+}
+
+header#cabecalho{
+    border-bottom: 1px grey solid;
+    height: 150px;
+    background:url("..//IMAGENS/gcp.jpg") no-repeat -20px 30px;
+}
+
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 25pt;
+    text-shadow: 1px 1px 2px black ;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;/*Fonte externa*/
+    text-shadow: 1px 1px 1px black;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+h1{/* Configuração da TAG da maior hierarquia,localizada em html*/ 
+    color:grey;
+}
+ 
+/*Formatação de imagens com legendas*/
+figure.foto-legenda{
+    position: relative;
+    border: 2px solid grey;
+    box-shadow: 1px 1px 4px grey;    
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    background-color: rgb(250, 248, 248,.2);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;/*Vai criar um box dentro da borda*/
+}
+
+figure.foto-legenda:hover figcaption{/*O hover vai disparar uma formatação especifica quando passar o mouse por cima*/
+    opacity: 1;
+}
+
+/*Formatação do Menu*/
+nav#menu{/**/
+    display: block;
+}
+
+nav#menu ul {/*Configuração da lista*/
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 190px ;
+}
+
+nav#menu li{/*Configuração dos itens que ficam na lista*/
+    display: inline-block;
+    background-color: grey;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 2s;
+    border-radius: 5px;
+}
+
+nav#menu li:hover{/*Quando o mouse ficar em cima do menu*/
+    background-color: #606060;
+}
+
+nav#menu h1{/*Configuração do texto dos itens*/
+    display: none;
+}
+
+nav#menu a{/* */
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav#menu a:hover{/*Quando o mouse ficar em cima de uma plavra do menu*/
+    color: greenyellow ;
+}
+
+section#corpo{
+    display: block;
+    width: 530px;
+    float: left;
+    border-right: 1px solid grey;
+    padding-right: 20px;/*Espaçamento dentro do componente*/
+    
+}
+
+article#noticia-principal h2{
+    font-size:12px;
+    color: white;
+    background-color: grey;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: 'Titillium Web', sans-serif;/*Fonte externa*/
+    font-size: 20pt;
+    color:#606060;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+
+header#cabecalho-artigo h2{
+    padding: 0px;
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffFfff;
+    margin:0px; 
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+}
+
+header#cabecalho-artigo h3.direita{
+    text-align: right;
+}
+
+table#tabela{
+    border: 1px solid grey;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+table#tabela td{
+    border: 1px solid  black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: silver ;
+    color: white;
+}
+
+table#tabela td.ce{
+    text-align: center;
+    color: white;
+    background: #606060;
+    font-weight: bold;
+}
+
+table#tabela td.cd{
+    text-align: left;
+}
+
+table#tabela caption#legenda_tabela{
+    color: grey;
+    font-weight: bold;
+}
+
+table#tabela caption#legenda_tabela span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 10px;
+    padding-top: 6px;
+}
+
+aside#lateral{
+    text-align:left;
+    display: block;
+    width: 500px;
+    float: left;
+    padding: 0px 0px 0px 50px;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+aside#lateral h1{
+    font-family: 'Titillium Web', sans-serif;/*Fonte externa*/
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffFfff;
+    padding: 5px;    
+}
+
+footer#rodape{
+    clear: both;/*LIMPA A CONFIGURAÇÃO DOS DOIS LADOS*/
+    border-top: 1px solid grey;   
+}
+
+footer#rodape p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+/*CONFIGURAÇÕES DA PÁGINA DE ESPECIFICAÇÕES*/
+img#spec01{
+    position: relative;
+    border: 2px solid grey;
+    box-shadow: 1px 1px 4px grey; 
+}
+
+p#pspec{
+    text-align: left; 
+    text-indent: 50px;
+    color: silver;
+}
+
+
